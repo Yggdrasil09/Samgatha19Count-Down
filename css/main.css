@@ -6,8 +6,8 @@
     src: url(../fonts/timer.ttf);
   }
   @font-face {
-    font-family: mynav;
-    src: url(../fonts/nav.ttf);
+    font-family: myreg;
+    src: url(../fonts/register.ttf);
   }
 
 
@@ -151,9 +151,9 @@ span {
     height:auto;
 }
 .row h4{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #f7a65a;
-    font-family: mynav;
+    font-family: myreg;
     text-align: center;
 }
 
@@ -168,6 +168,10 @@ span {
     padding: 6px;
 }
 
+.mob{
+    display:none;
+}
+
 /* Iphone SE */
 @media (max-width:399.98px){
     .logo{
@@ -180,45 +184,84 @@ span {
     }
     iframe{
         width:130%;
-        margin-top:20rem;
+        margin-top:5rem;
         margin-left: 2rem;
-        height: auto;
+        height: 50rem;
         margin-right: 2rem;
     }
     .foot{
-        margin-top: -3rem;
+        margin-top: 2rem;
         margin-left: 75%;
     }
+    .count-down{
+        font-size: 1.2rem;
+    }
+    .mob{
+        display:block;
+    }
+    .oth{
+        display:none;
+    }
+    .clock{
+        width: 170%;
+        height: auto;
+        margin-left: 2px;
+
+        margin-right: 2px;
+    }
+    .arr1{
+        margin-top: 10rem;
+    }
+    
 }
 /* Phone */
  @media (min-width: 400px) and (max-width: 575.98px){
     .logo{
-        margin-top: 2rem;
-        width: 85%;
+        
+        width: 99%;
         height: auto;
     }
     .clock{
-        width: 110%;
+        width: 130%;
         height: auto;
+        margin-left: 2px;
+
+        margin-right: 2px;
+    }
+    .timer .container .row{
+        padding:-40px;
     }
     .timer{
-        margin-top: 4rem;
+        margin-top: 1rem;
+        /* padding: 15px; */
         /* margin-right: 50%; */
     }
     .foot{
-        margin-top: -2rem;
-        margin-left: 75%;
+        margin-top: 1rem;
+        margin-left: 77.8%;
     }
     iframe{
         width:130%;
-        margin-top:20rem;
+        margin-top:2rem;
         margin-left: 2rem;
-        height: auto;
+        height:50rem;
         margin-right: 2rem;
     }
 
     .op {
         margin: 25px 25px 25px 25px;
+    }
+    .count-down{
+        font-size: 1.2rem;
+    }
+    .mob{
+        display:block;
+    }
+    .oth{
+        display:none;
+    }
+    .arr1{
+        margin-top:1.5rem;
     }
 }
 
@@ -226,17 +269,19 @@ span {
  @media (min-width: 576px) and (max-width: 767.98px){
     .logo{
         margin-top: 2rem;
-
         width: 90%;
         height: auto;
     }
     .timer{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .foot{
-        margin-top: 0rem;
-        margin-bottom:2rem;
+        /* margin-top: 0rem; */
+        /* margin-bottom:2rem; */
         margin-left: 80%;
+    }
+    .toarrow{
+        margin-top: -3rem;
     }
 }
 
@@ -247,10 +292,10 @@ span {
     .logo{
         width: 70%;
         height: auto;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     .timer{
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
     .foot{
         margin-top: -8rem;
@@ -262,9 +307,9 @@ span {
 /* ipad pro */
 @media (min-width: 992px) and (max-width: 1199.98px){
     .logo{
-        width: 60%;
+        width: 55%;
         height: auto;
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
     .timer{
         margin-top: 1.2rem;
@@ -289,5 +334,8 @@ span {
     .foot{
         margin-top: -5rem;
         margin-left: 90%;
+    }
+    .arr1{
+        margin-top: 10rem;
     }
 }

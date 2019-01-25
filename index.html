@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"> -->
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
@@ -35,7 +39,7 @@
                     <div class="timer">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-3 col-sm-6 col-6">
+                                <div class="col-lg-3 col-sm-6 col-3">
                                     <div class="clock">
                                         <span id="days">
                                             <script>
@@ -45,7 +49,7 @@
                                         <p class="count-down">DAYS</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-sm-6 col-6">
+                                <div class="col-lg-3 col-sm-6 col-3">
                                     <div class="clock">
                                         <span id="hours">
                                             <script>
@@ -53,27 +57,30 @@
                                                     60)))
                                             </script>
                                         </span>
-                                        <p class="count-down">HOURS</p>
+                                        <p class="count-down oth">HOURS</p>
+                                        <p class="count-down mob">HRS</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-sm-6 col-6">
+                                <div class="col-lg-3 col-sm-6 col-3">
                                     <div class="clock">
                                         <span id="minutes">
                                             <script>
                                                 document.write(Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)))
                                             </script>
                                         </span>
-                                        <p class="count-down">MINUTES</p>
+                                        <p class="count-down oth">MINUTES</p>
+                                        <p class="count-down mob">MINS</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-sm-6 col-6">
+                                <div class="col-lg-3 col-sm-6 col-3">
                                     <div class="clock">
                                         <span id="seconds">
                                             <script>
                                                 document.write(Math.floor((diff % (1000 * 60)) / 1000))
                                             </script>
                                         </span>
-                                        <p class="count-down">SECONDS</p>
+                                        <p class="count-down oth">SECONDS</p>
+                                        <p class="count-down mob">SECS</p>
                                     </div>
                                 </div>
                             </div>
@@ -84,16 +91,17 @@
 
             <div class="container">
                 <div class="row">
+                        <div class="foot">
+                                <a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank"><img class="fb" src="images/fb.png" /></a>
+                                <a href="https://www.instagram.com/samgatha/?hl=en" target="_blank"><img class="insta" src="images/insta.png" /></a>
+                            </div>
                     <div class="toarrow" style="display:block;margin-left:auto;margin-right:auto;">
                         <a href="#secondSection">
                             <div class="arrow bounce" style="margin:auto;">
                             </div>
                         </a>
                     </div>
-                    <div class="foot">
-                        <a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank"><img class="fb" src="images/fb.png" /></a>
-                        <a href="https://www.instagram.com/samgatha/?hl=en" target="_blank"><img class="insta" src="images/insta.png" /></a>
-                    </div>
+
                 </div>
 
 
@@ -103,13 +111,13 @@
         <section class="vertical-scrolling">
             <div class="container" style="margin-top:7rem; height:100%">
                 <div class="row">
-                    <h4 style="margin-left:auto;margin-right:auto;">After Movie</h4>
+                    <h4 style="margin-left:auto;margin-right:auto;">AfterMovie</h4>
                 </div>
                 <div class="row">
                     <iframe width="100%" height="500rem" src="https://www.youtube.com/embed/bnm8SQjKASM" frameborder="0"
                         allow="autoplay; encrypted-media;" allowfullscreen></iframe>
                 </div>
-                <div class="row">
+                <div class="row arr1">
                     <div style="display:block;margin-left:auto;margin-right:auto">
                         <a href="#thirdSection">
                             <div class="arrow bounce">
@@ -122,7 +130,7 @@
         </section>
         <section class="vertical-scrolling">
             <div class="container" >
-                    <div class="row">
+                    <div class="row arr2">
                             <h4 style="margin-left:auto;margin-right:auto;">Previous Sponsors</h4>
                       </div>
                 <div class="row">
@@ -197,8 +205,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script src="js/script.js"></script>
     <script  src="js/index.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script> -->
+    <script  src="js/jquery.min.js"></script>
+    <script  src="js/owl.carousel.js"></script>
+
     <script type="text/javascript">
 $('.owl-carousel').owlCarousel({
    loop:true,

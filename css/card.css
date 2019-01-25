@@ -1,6 +1,7 @@
+
 @font-face {
-  font-family: myreg;
-  src: url(../fonts/register.ttf);
+  font-family: mynav;
+  src: url(../fonts/nav.ttf);
 }
 body, html {
   background-color: #F16e32;
@@ -28,6 +29,7 @@ body, html {
   width: 17em;
   background-color: #fff8ee;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius:6px;
   cursor: pointer;
 }
 .skill-card:hover {
@@ -99,14 +101,15 @@ body, html {
   height: 40px;
   transition: height 0.5s;
   overflow: hidden;
+  border-radius: 6px;
 }
 .skill-card .skill-card__body .skill-card__title {
-  font-size: 3.3em;
+  font-size: 2.5em;
   /* font-weight: 600; */
   text-transform: uppercase;
   color: black;
   text-align: center;
-  font-family: myreg;
+  font-family: mynav;
 }
 /* .skill-card .skill-card__body .skill-card__duration {
   color: #9E9E9E;
