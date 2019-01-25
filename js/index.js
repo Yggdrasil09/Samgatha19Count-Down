@@ -26,20 +26,20 @@ $('#fullpage').fullpage({
   afterLoad: function(anchorLink, index) {
     $header_top.css('background', 'rgba(0, 47, 77, .3)');
     $nav.css('background', 'rgba(0, 47, 77, .25)');
-    if (index == 5) {
-        $('#fp-nav').hide();
-      }
+    // if (index == 5) {
+    //     $('#fp-nav').hide();
+    //   }
   },
 
-  onLeave: function(index, nextIndex, direction) {
-    if(index == 5) {
-      $('#fp-nav').show();
-    }
-  },
+  // onLeave: function(index, nextIndex, direction) {
+  //   if(index == 5) {
+  //     $('#fp-nav').show();
+  //   }
+  // },
 
   afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex) {
-    if(anchorLink == 'fifthSection' && slideIndex == 1) {
-      $.fn.fullpage.setAllowScrolling(false, 'up');
+    if(anchorLink == 'thirdSection' && slideIndex == 1) {
+      $.fn.fullpage.setAllowScrolling(true, 'up');
       $header_top.css('background', 'transparent');
       $nav.css('background', 'transparent');
       $(this).css('background', '#374140');
@@ -56,7 +56,7 @@ $('#fullpage').fullpage({
   },
 
   onSlideLeave: function( anchorLink, index, slideIndex, direction) {
-    if(anchorLink == 'fifthSection' && slideIndex == 1) {
+    if(anchorLink == 'thirdSection' && slideIndex == 1) {
       $.fn.fullpage.setAllowScrolling(true, 'up');
       $header_top.css('background', 'rgba(0, 47, 77, .3)');
       $nav.css('background', 'rgba(0, 47, 77, .25)');
