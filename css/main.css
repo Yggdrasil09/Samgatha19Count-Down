@@ -179,8 +179,10 @@ span {
         margin-top: 4rem;
     }
     iframe{
+        width:130%;
+        margin-top:20rem;
         margin-left: 2rem;
-
+        height: auto;
         margin-right: 2rem;
     }
     .foot{
@@ -201,14 +203,17 @@ span {
     }
     .timer{
         margin-top: 4rem;
+        /* margin-right: 50%; */
     }
     .foot{
         margin-top: -2rem;
-        margin-left: 80%;
+        margin-left: 75%;
     }
     iframe{
+        width:130%;
+        margin-top:20rem;
         margin-left: 2rem;
-
+        height: auto;
         margin-right: 2rem;
     }
 
