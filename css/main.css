@@ -1,6 +1,9 @@
 /* body{
     background-image:url("../img/Bg.jpg");
 } */
+body{
+    tabindex=-1;
+}
 @font-face {
     font-family: mytimer;
     src: url(../fonts/timer.ttf);
@@ -210,7 +213,7 @@ span {
         margin-right: 2px;
     }
     .arr1{
-        margin-top: 10rem;
+        margin-top: 1rem;
     }
     
 }
@@ -242,7 +245,7 @@ span {
     }
     iframe{
         width:130%;
-        margin-top:2rem;
+        margin-top:0.5rem;
         margin-left: 2rem;
         height:50rem;
         margin-right: 2rem;
