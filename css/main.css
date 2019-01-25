@@ -144,6 +144,8 @@ span {
 	z-index: 1;
 }
 
+
+
 .logo{
     width: 70%;
     height:auto;
@@ -217,6 +219,7 @@ span {
     }
     .foot{
         margin-top: 0rem;
+        margin-bottom:2rem;
         margin-left: 80%;
     }
 }
@@ -251,8 +254,8 @@ span {
         margin-top: 1.2rem;
     }
     .foot{
-        margin-top: -5rem;
-        margin-left: 85%;
+        margin-top: -0rem;
+        margin-left: 90%;
     }
 }
 
@@ -265,7 +268,7 @@ span {
         height: auto;
     }
     .timer{
-        margin-top: 2rem;
+        margin-top: -1rem;
     }
     .foot{
         margin-top: -5rem;

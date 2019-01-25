@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,45 +16,63 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
 
 </head>
+
 <body>
     <script>
-            var user = new Date().getTime();
-            var end = new Date("Mar 1, 2019 0:0:0").getTime();
-            var diff = end - user;
+        var user = new Date().getTime();
+        var end = new Date("Mar 1, 2019 0:0:0").getTime();
+        var diff = end - user;
     </script>
     <div id="fullpage">
         <section class="vertical-scrolling">
-            <div class="container" >
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <img class="logo" src="images/Coming-Soon.png" />
                     </div>
                 </div>
-                <div class="row" >
+                <div class="row">
                     <div class="timer">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-3 col-sm-6 col-6">
                                     <div class="clock">
-                                        <span id="days"><script>document.write(Math.floor(diff/(1000*60*60*24)))</script></span>
+                                        <span id="days">
+                                            <script>
+                                                document.write(Math.floor(diff / (1000 * 60 * 60 * 24)))
+                                            </script>
+                                        </span>
                                         <p class="count-down">DAYS</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-6">
                                     <div class="clock">
-                                        <span id="hours"><script>document.write(Math.floor((diff%(1000*60*60*24))/(1000*60*60)))</script></span>
+                                        <span id="hours">
+                                            <script>
+                                                document.write(Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 *
+                                                    60)))
+                                            </script>
+                                        </span>
                                         <p class="count-down">HOURS</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-6">
                                     <div class="clock">
-                                        <span id="minutes"><script>document.write(Math.floor((diff%(1000*60*60))/(1000 * 60)))</script></span>
+                                        <span id="minutes">
+                                            <script>
+                                                document.write(Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)))
+                                            </script>
+                                        </span>
                                         <p class="count-down">MINUTES</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-6">
                                     <div class="clock">
-                                        <span id="seconds"><script>document.write(Math.floor((diff%(1000*60))/1000))</script></span>
+                                        <span id="seconds">
+                                            <script>
+                                                document.write(Math.floor((diff % (1000 * 60)) / 1000))
+                                            </script>
+                                        </span>
                                         <p class="count-down">SECONDS</p>
                                     </div>
                                 </div>
@@ -63,50 +82,41 @@
                 </div>
             </div>
 
-
-
             <div class="container">
-                    <!-- <div class="row">
-                            <a href="#secondSection">
-                                <div class="arrow bounce"  style="margin:auto;">
-                                </div>
-                            </a>
-                            </div> -->
-
-                            <div class="row">
-                                 <div class="foot">
-                            <a href="https://www.facebook.com/samgathaatiiitdm/"target="_blank" ><img class="fb" src="images/fb.png"/></a>
-                            <a href="https://www.instagram.com/samgatha/?hl=en"target="_blank"><img class="insta" src="images/insta.png"/></a>
-                        </div>
+                <div class="row">
+                    <div class="toarrow" style="display:block;margin-left:auto;margin-right:auto;">
+                        <a href="#secondSection">
+                            <div class="arrow bounce" style="margin:auto;">
+                            </div>
+                        </a>
                     </div>
+                    <div class="foot">
+                        <a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank"><img class="fb" src="images/fb.png" /></a>
+                        <a href="https://www.instagram.com/samgatha/?hl=en" target="_blank"><img class="insta" src="images/insta.png" /></a>
+                    </div>
+                </div>
 
 
-              </div>
+            </div>
 
-
-
-
-            <!-- <div class="scroll-icon">
-                <p style="color:white">Jump into the last slide</p>
-                <a href="#sponsors" class="icon-up-open-big"></a>
-            </div> -->
         </section>
         <section class="vertical-scrolling">
-            <div class="container" style="margin-top:2rem; height:100%">
-                    <div class="row" >
-                        <h4 style="margin-left:auto;margin-right:auto;">After Movie</h4>
+            <div class="container" style="margin-top:7rem; height:100%">
+                <div class="row">
+                    <h4 style="margin-left:auto;margin-right:auto;">After Movie</h4>
+                </div>
+                <div class="row">
+                    <iframe width="100%" height="500rem" src="https://www.youtube.com/embed/bnm8SQjKASM" frameborder="0"
+                        allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+                </div>
+                <div class="row">
+                    <div style="display:block;margin-left:auto;margin-right:auto">
+                        <a href="#thirdSection">
+                            <div class="arrow bounce">
+                            </div>
+                        </a>
                     </div>
-                    <div class="row">
-                            <iframe width="100%" height="500rem" src="https://www.youtube.com/embed/bnm8SQjKASM" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
-                    </div>
-
-
-                    <div class="row" >
-                            <a href="#thirdSection">
-                                    <div class="arrow bounce">
-                                    </div>
-                            </a>
-                    </div>
+                </div>
             </div>
 
         </section>
@@ -183,8 +193,8 @@
         </section>
 
     </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script src="js/script.js"></script>
     <script  src="js/index.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -213,4 +223,5 @@ $('.owl-carousel').owlCarousel({
 </script>
 
 </body>
+
 </html>
