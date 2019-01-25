@@ -1,0 +1,23 @@
+{
+  "name": "samgatha19count-down",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yggdrasil09/Samgatha19Count-Down.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yggdrasil09/Samgatha19Count-Down/issues"
+  },
+  "homepage": "https://github.com/Yggdrasil09/Samgatha19Count-Down#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
