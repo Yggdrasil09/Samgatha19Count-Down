@@ -1,11 +1,21 @@
 /* body{
     background-image:url("../img/Bg.jpg");
 } */
-
+@font-face {
+    font-family: mytimer;
+    src: url(../fonts/timer.ttf);
+  }
+  @font-face {
+    font-family: mynav;
+    src: url(../fonts/nav.ttf);
+  }
 .vertical-scrolling{
     background-image:url("../images/Bg.jpg")
 }
-
+.foot{
+    display: block;
+    margin: auto;
+}
 .timer{
     width:60%;
     display:block;
@@ -23,7 +33,7 @@
 }
 
 .count-down {
-    /* font-family: 'Hind', sans-serif; */
+    font-family: mytimer;
     font-size: 2rem;
     color:white;
 }
@@ -49,6 +59,12 @@ span {
 .logo{
     width: 100%;
     height:auto;
+}
+.row h4{
+    font-size: 3rem;
+    color: #f7a65a;
+    font-family: mynav;
+    text-align: center;
 }
 /* Phone */
 /* @media (max-width: 575.98px){
