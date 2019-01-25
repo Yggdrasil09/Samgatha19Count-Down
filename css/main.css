@@ -67,10 +67,11 @@ body{
   }
   .opa{
       margin-top: 3rem;
-      background-color: #fff8ee;
+      background-color: white;
+      border-radius: 8px;
   }
   .op {
-    height: 200px;
+    height: 220px;
     }
   .op img {
     max-height: 100%;  
