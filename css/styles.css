@@ -196,7 +196,7 @@ nav {
  	height: 0;
 	opacity: 0;
   box-sizing: border-box;
-	background-color: wheat;
+	background: rgba(0, 47, 77, .25);
 	position: fixed;
 	top: 70px;
 	width: 100%;
@@ -277,7 +277,7 @@ h3 {
 
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span {
-	background: white;
+	background: #fff8ee;
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
@@ -290,7 +290,7 @@ h3 {
 	width: 16px;
 	height: 16px;
 	margin: -8px 0 0 -8px;
-	background: transparent;
+	background: #f16e32;
 	box-sizing: border-box;
 	border: 1px solid #24221F;
 }
