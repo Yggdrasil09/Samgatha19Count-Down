@@ -167,6 +167,27 @@ span {
     height: auto;
     padding: 6px;
 }
+
+/* Iphone SE */
+@media (max-width:399.98px){
+    .logo{
+        margin-top: 2rem;
+        width: 90%;
+        height: auto;
+    }
+    .timer{
+        margin-top: 4rem;
+    }
+    iframe{
+        margin-left: 2rem;
+
+        margin-right: 2rem;
+    }
+    .foot{
+        margin-top: -3rem;
+        margin-left: 75%;
+    }
+}
 /* Phone */
  @media (min-width: 400px) and (max-width: 575.98px){
     .logo{
@@ -175,32 +196,22 @@ span {
         height: auto;
     }
     .clock{
-        width: 100%;
+        width: 110%;
         height: auto;
     }
     .timer{
         margin-top: 4rem;
     }
     .foot{
-        margin-top: -5rem;
-        margin-left: 75%;
+        margin-top: -2rem;
+        margin-left: 80%;
     }
     iframe{
         margin-left: 2rem;
 
         margin-right: 2rem;
     }
-    .fb{
-        width:0%;
-        display: hidden;
-        /* height: auto; */
-    }
-    .insta{
-        display: hidden;
 
-        width:0%;
-        /* height:auto; */
-    }
     .op {
         margin: 25px 25px 25px 25px;
     }
@@ -268,7 +279,7 @@ span {
         height: auto;
     }
     .timer{
-        margin-top: -1rem;
+        margin-top: 0rem;
     }
     .foot{
         margin-top: -5rem;
