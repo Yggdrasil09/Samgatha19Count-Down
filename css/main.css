@@ -1,0 +1,97 @@
+/* body{
+    background-image:url("../img/Bg.jpg");
+} */
+
+.vertical-scrolling{
+    background-image:url("../images/Bg.jpg")
+}
+
+.timer{
+    width:60%;
+    display:block;
+    margin-left : auto ;
+    margin-right : auto ;
+    margin-top:-10rem;
+}
+.clock {
+    text-align:center;
+    border-radius:6px;
+    margin: auto;
+    width:12rem;
+    display:block;
+    background-color:rgba(255, 255, 255,0.25);
+}
+
+.count-down {
+    /* font-family: 'Hind', sans-serif; */
+    font-size: 2rem;
+    color:white;
+}
+
+span {
+    font-family: 'Khand', sans-serif;
+    color: white;
+    font-size:3rem;
+}
+
+#stage {
+    display:inline-block;
+	width: 100%;
+	height: 140rem;
+	background: rgba(20, 20, 20, 0);
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.logo{
+    width: 100%;
+    height:auto;
+}
+/* Phone */
+/* @media (max-width: 575.98px){
+    .logo{
+        margin-top: 20rem;
+    }
+} */
+
+/* Landscape */
+/* @media (min-width: 576px) and (max-width: 767.98px){
+    .logo{
+        margin-top: 20rem;
+    }
+} */
+
+
+/* ipad */
+/* @media (min-width: 768px) and (max-width: 991.98px) {
+    .logo{
+        margin-top: 20rem;
+    }
+    .timer{
+        margin-top:2rem;
+    }
+} */
+
+
+/* ipad pro */
+/* @media (min-width: 992px) and (max-width: 1199.98px){
+    .logo{
+        margin-top: 22rem;
+    }
+    .timer{
+        margin-top: 2rem;
+    }
+} */
+
+
+/* desktop */
+/* @media (min-width: 1200px){
+    .logo{
+        margin-top: 3rem;
+        width: 100%;
+        height:auto;
+    }
+}  */
